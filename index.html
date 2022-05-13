@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1 data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-once="true">My Portfolio</h1>
+        <div class='navigationMenu' data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-once="true" >
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <div class="side-box" style="border: 5px solid black; border-radius: 20px; margin: 20px; padding: 20px;">
+        <b>Want To Edit Details ?</b> <br> <b>Click</b> <a href="#"><b>Here!</b></a>
+      </div>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='./images/photo.jpg' style="border-radius: 100%;"/>
+        <div class='herosectionDetails' data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-once="true">
+          <h1>Anubhav Ladha</h1>
+          <h3>Full-Stack | Coder | Developer | C++</h3>
+         
+        </div>
+      </section>
+      <div >
+      <!-- <a href="https://www.codechef.com/users/anubhav_2102" target="_blank" class="codechef"> <img title="Codechef" src="./images/codechef.svg" height="35px" width="35px">CodeChef</a> -->
+    </div>
+      
+      <section class='aboutMe' id='aboutMe' data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1000"
+      data-aos-once="true">
+        <h1>About Me...</h1>
+        <button onclick="myFunction()" class="final"><b>>></b></button>
+    <p id="demo"></p>
+        <p>
+        </p> 
+      </section>
+      <section class='skillsAndProjects' >
+        <div class='skills' id='skills' >
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='./images/html.svg'>
+          <img title='CSS' src='./images/css.svg'>
+          <img title='Javascript' src='./images/js.svg'>
+          <img title='Node.JS' src='./images/node.svg'>
+          <img title='MongoDB' src='./images/mongodb.svg'>
+          <img title='Android' src="./images/android.svg">
+          <img title="C++" src="./images/c.svg">
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='./images/github.svg'/>
+            <div class='projectDescription'>
+              <h4>Digital Library</h4>
+              <p>
+                This is my first Web Development project made to ease out the reach of books to many students who are in need but unable to buy. <br> <p class="major">Github Link :</p> <a href="https://lnkd.in/gS-V4ZGr" class="links major" target="_blank">https://github.com/anubhav2102</a><br> For More Info about my project : <a href="https://www.linkedin.com/posts/anubhav-ladha-617b1b190_fullstackdevelopment-github-javascript-activity-6834786696517840896-zU6e" class="links" target="_blank">Click Here</a>
+            </p>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+            <br>
+            <br>
+            <div class="social" >
+                <a href="https://www.facebook.com/anubhav.ladha.9" target="_blank" class="facebook"><img title="facebook" src="./images/facebook.svg" alt="" height="40px" width="40px"></a>
+        <a href="https://github.com/anubhav2102" target="_blank" class="github"><img title="git" src="./images/github.svg" alt="" height="40px" width="40px"></a>
+        <a href="mailto:anubhavladha11@gmail.com" target="_blank" class="gmail"><img title="gmai" src="./images/gmail.svg" alt="" height="40px" width="40px"></a>
+        <a href="https://www.instagram.com/anubhav_2102/" target="_blank" class="instagram"><img title="instagram" src="./images/instagram.svg" alt="" height="40px" width="40px"></a>
+        <a href="https://www.linkedin.com/in/anubhav-ladha-617b1b190/" target="_blank" class="linkedin"><img title="linkedin" src="./images/linkedin.svg" alt="" height="40px" width="40px"></a>
+            </div>
+        
+      </section>
+    </main>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
